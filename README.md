@@ -1,2 +1,2 @@
-# goit-markup-hw-07-deznya
-7 дз
+# goit-markup-hw-06-deznya
+6 домашка

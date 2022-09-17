@@ -1,0 +1,26 @@
+@mixin transition($property) {
+    $duration: 250ms;
+    $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    transition-property: $property;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
+  }
+  
+  @mixin transition-properly($property,$type) {
+    $duration: 250ms;
+    $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    transition-property: $property, $type;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
+  }
+  
+  @mixin transition-mix($property, $type, $shadow) {
+    $duration: 250ms;
+    $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    transition-property: $property, $type, $shadow;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
+  }
