@@ -44,11 +44,10 @@
   border: none;
   transition: var(--transition-dur-and-func);
 
-
-&:hover,
-&:focus {
-  background-color: var(--button-hero-bg-color);
-  box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
-  border-radius: 4px;
-}
+  &:hover,
+  &:focus {
+    background-color: var(--button-hero-bg-color);
+    box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
+    border-radius: 4px;
+  }
 }

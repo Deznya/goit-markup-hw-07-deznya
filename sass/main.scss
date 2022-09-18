@@ -1,6 +1,8 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/mixins';
+@import './utils/placeholders';
+
 @import './base/common.scss';
 @import './base/section';
 @import './base/container';
@@ -11,7 +13,7 @@
 @import './components/title-work';
 @import './layout/section-team';
 @import './components/link-social-network';
-@import './layout/section-icon-company.scss';
+@import './layout/section-icom-company.scss';
 @import './components/footer';
 @import './components/button';
 @import './layout/modal';
